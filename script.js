@@ -11,12 +11,6 @@ function applyAndHideTag(tags) {
     });
 }
 
-function onMutation() {
-    //console.log("Mutation") // for debugging
-    applyAndHideTag('c');
-    applyAndHideTag('qt');
-}
-
 const mutationObserver = new MutationObserver(() => applyAndHideTag(tags))
 
 const config = {
