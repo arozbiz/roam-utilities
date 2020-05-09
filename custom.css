@@ -1,0 +1,15 @@
+span[data-tag="qt"] { /*hide the actual #qt tag */
+    display: none;
+}
+
+.qt_tag { /* how to style blocks with #qt tag (blockquotes) */
+    background: #fceaea;
+    border: 2px solid #9c9b9b;
+    border-left: 5px solid #9c9b9b;
+    border-radius: .5em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    color: #000;
+}
+
+/* replicate above with additional desired tags */
